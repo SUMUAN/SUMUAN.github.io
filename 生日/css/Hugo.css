@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Concert+One|Pacifico");
+@font-face {
+	font-family:"zhifeiji";
+	src: url("../font/字魂御守锦书(商用需授权).ttf");
+}
+body{
+	background: black;
+	font-family:"zhifeiji";
+	color: white;
+}
+p{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	font-size: 2em;
+	font-family: "Pacifico";
+}
+
+			
+			.c>span{
+				font-family: Pacifico;
+				margin-right: 10px;
+				display: inline-block;
+				font-size: 2em;
+				color: white;
+				text-shadow: 0 0 10px #fff, 0 0 20px #fff,0 0 30px #e60073,0 0 40px #e60073,0 0 50px #e60073,0 0 60px #e60073,0 0 70px #e60073;
+				animation: anim;
+				animation-timing-function: linear;
+				animation-direction: alternate-reverse;
+				animation-iteration-count: infinite;
+			}
+			.c>span:nth-child(1){
+				animation-delay: 0.2s;
+				animation-duration: 0.3s;
+			}
+			.c>span:nth-child(2){
+				animation-delay: 0.4s;
+				animation-duration: 0.6s;
+			}
+			.c>span:nth-child(3){
+				animation-delay: 0.6s;
+				animation-duration: 0.9s;
+			}
+			.c>span:nth-child(4){
+				animation-delay: 0.8s;
+				animation-duration: 1.2s;
+			}
+			.c>span:nth-child(5){
+				animation-delay: 1s;
+				animation-duration: 1.5s;
+			}
+			.c>span:nth-child(6){
+				animation-delay: 1.2s;
+				animation-duration: 1.8s;
+			}
+			.c>span:nth-child(7){
+				animation-delay: 1.4s;
+				animation-duration: 2.1s;
+			}
+			.c>span:nth-child(8){
+				animation-delay: 1.6s;
+				animation-duration: 2.4s;
+			}
+			.c>span:nth-child(9){
+				animation-delay: 1.8s;
+				animation-duration: 2.7s;
+			}
+			.c>span:nth-child(10){
+				animation-delay: 2s;
+				animation-duration: 3s;
+			}
+			.c>span:nth-child(11){
+				animation-delay: 2.2s;
+				animation-duration: 3.3s;
+			}
+			.c>span:nth-child(12){
+				animation-delay: 2.4s;
+				animation-duration: 3.6s;
+			}
+			.c>span:nth-child(13){
+				animation-delay: 2.6;
+				animation-duration: 3.9s;
+			}
+			.c>span:nth-child(14){
+				animation-delay: 2.8;
+				animation-duration: 4.2s;
+			}
+			@keyframes anim {
+				0%
+				{
+					opacity: .1;
+					background-position: 0 0;
+						filter: hue-rotate(0deg);
+				}
+				10%{ background-position: 5px 0;}
+				20%{ background-position: -5px 0;}
+				30%{ background-position: 15px 0;}
+				40%{ background-position: -5px 0;}
+				50%{ background-posshi -25px 0;}
+				60%{ background-position: -50px 0;}
+				70%{ background-position: 0 -20px;}
+				80%{ background-position: -60px -20px;}
+				81%{ background-position: 0 0;}
+				100%{
+					opacity: 1;
+					background-position: 0 0;
+					filter: hue-rotate(360deg);
+				}
+			}
