@@ -124,6 +124,7 @@ h2{
 	color: white;
 	border-style: none;
 	border-radius: 50%;
+	background:linear-gradient(to right,purple,pink);
 }
 .b{
 	font-size: 50px;
