@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Concert+One|Pacifico");
 @font-face {
 	font-family:"zhifeiji";
-	src: url("font/maobi.ttf");
+	src: url("font/maobi.eot");
+	src:local('😊'),
+		url("font/maobi.eot")format("embedded-opentype"),
+		url("font/maobi.woff")format("woff"),
+		url("font/maobi.ttf")format("truetype");
 }
 body{
-	background: linear-gradient(to right,pink,purple);
+	background: linear-gradient(to right,#e2b8f7,#d4bafa,#c7bcfb,#b9befb,#acdff9);
 	font-family:"zhifeiji";
 	color: white;
 }
@@ -122,9 +126,11 @@ h2{
 }
 .a button{
 	color: white;
+	font-family: "Pacifico";
 	border-style: none;
 	border-radius: 50%;
-	background:linear-gradient(to right,purple,pink);
+	background:pink;
+	size: 200px;
 }
 .b{
 	font-size: 50px;
